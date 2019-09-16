@@ -1,0 +1,82 @@
+.formholder {
+position:relative;
+height:auto;
+text-align:center;
+padding: 15px;
+margin: 15px;
+align-items: center;
+
+
+}
+
+.l_form{
+align-items: center;
+border-radius: 15px;
+
+background-color: lightblue;
+
+height: auto;
+min-height: 250px;
+width:250px;
+padding: 15px 5px 5px 5px;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+}
+
+.header{
+height: 8%;
+background-color: lightgrey;
+width:100%;
+border-radius:5px;
+}
+
+.footer{
+height: 13%;
+background-color: lightgrey;
+width:100%;
+border-radius:5px;
+}
+
+.main{
+height:75%;
+padding:1%;
+
+}
+
+input[type=text] {
+    padding:5px; 
+   border:0px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+
+border-radius: 5px;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+border:0px;
+	
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input:hover[type=submit] {
+    padding:5px 15px; 
+    background:lightgrey; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.errors{
+    background-color : red;
+}
